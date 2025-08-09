@@ -70,7 +70,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
             <blockquote v-if="showDetails">
                 <sup class="mb-2"><i>Macro vecteur: {{ macroVector }}</i></sup>
-                <div v-for="(severity, description) in vectorInstance.severityBreakdown" :key="description">{{ description }}: {{ severity }}</div>
+                <div style="display: flex; gap: 10px;" v-for="(severity, description) in vectorInstance.severityBreakdown" :key="description">
+                   {{ description }}: {{ severity }}
+                </div>
             </blockquote>
 
         </header>
