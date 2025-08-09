@@ -216,7 +216,7 @@
         }
     },
     "Métriques Supplémentaires": {
-        "fill": "supplier",
+        "fill": "fournisseur",
         "metric_groups": {
             "": {
                 "Sécurité (S)": {
