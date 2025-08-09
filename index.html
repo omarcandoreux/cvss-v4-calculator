@@ -45,8 +45,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <h3 class="page-title">Calculateur Common Vulnerability Scoring System (CVSS) Version 4.0 </h3>
             <mark
                 class="tooltip c-hand"
-                aria-label="Click to copy vector to clipboard"
-                data-tooltip="Click vector to copy to clipboard"
+                aria-label="Click pour copier le vecteur en mémoire"
+                data-tooltip="Click vector pour copier en mémoire"
                 role="button"
                 tabindex="0"
                 @click="copyVector">
@@ -56,8 +56,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <h5 class="score-line">
                 <span
                     class="tooltip tooltip-bottom c-hand"
-                    :data-tooltip="showDetails ? 'Hide details' : 'Show details'"
-                    :aria-label="showDetails ? 'Hide details' : 'Show details'"
+                    :data-tooltip="MontrerLesDetails ? 'Cacher les details' : 'Montrer les details'"
+                    :aria-label="MontrerLesDetails ? 'Cacher les details' : 'Montrer les details'"
                     role="button"
                     tabindex="0"
                     @click="showDetails = !showDetails">
